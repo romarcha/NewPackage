@@ -1,0 +1,14 @@
+Package: NewPackage
+Type: Package
+Title: Practice Building a Package
+Version: 0.1.0.9000
+Author: Roman Marchant
+Maintainer: Roman Marchant <roman.marchant@sydney.edu.au>
+Description: Practice building a package.
+License: GPL >= 3
+Imports:
+    ggplot2
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1

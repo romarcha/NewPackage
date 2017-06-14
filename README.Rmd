@@ -1,0 +1,29 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include=FALSE}
+knitr::opts_knit$set(
+        stop_on_error = 2L
+)
+knitr::opts_chunk$set(
+        fig.path="man/figures/"
+)
+```
+
+# NewPackage
+
+The goal of NewPackage is to ...
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r}
+library(NewPackage)
+beta_plot(a = 1,b = 3)
+```
